@@ -11,3 +11,7 @@
 # 4
 
 # Write your code here:
+
+n= int(input("type in positive integer as an upper limit:"))
+for x in range(1,n):
+    print(x)
