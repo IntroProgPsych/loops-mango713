@@ -20,3 +20,15 @@
 
 
 # Write your code here:
+
+code=input("type in your pin:")
+attempts= 1
+
+while code != "420":
+    print("wrong")
+    code=input("type pin to enter:")
+    attempts +=1
+
+print("\n")
+print(f"took you {attempts} attempts")
+print("congrats idiot you got it right")

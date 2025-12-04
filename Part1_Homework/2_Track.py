@@ -19,3 +19,12 @@
 #   - Update the maximum whenever you read a number that is larger.
 
 # Write your code here:
+count = int(input("How many numbers? "))
+largest = None
+
+for i in range(1, count + 1):
+    number = int(input(f"Number {i}: "))
+    if largest is None or number > largest:
+        largest = number
+
+print(f"The largest number was: {largest}")
